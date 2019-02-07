@@ -1,0 +1,10 @@
+---
+
+- hosts: 3.8.230.159
+  gather_facts: no
+  connection: ssh
+  remote_user: root
+
+  tasks:
+  - name: Install Package
+    yum: name=git state=latest
