@@ -54,7 +54,7 @@
       mode: 0700
       owner: cdudu
       group: cdudu
-      line: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDCX3ETJk0aucRXDNBLCYNqbjNPi1hC5pjCKBkA3AEt2y4cvxIO6DfXv+LJFy0opZ4fO1gM0vnJ5un164veg1ZdiVmFRy9zDOWtMbZUcxFz4zavvJLyl/vEXzJdUap0mt1Ou8K6xJf9SCc+UHddXxykD4yKClnH1dbv8oG1qA2zjboQaVz5X2g2kyGDpQYdaqyPgl+HF2Txt1xHF1IAGhqEnx3YPit7oLMknMvMYzRdWZVtZ30MQ+PoJW4r2ASRI/bpozP5TbIdzl/3l1RDiDrcoKuu5PdCoB/jrS5aZV2OEDI/lMtIUzSUc7+iImsQftj69KIqqzn+jISS/GlsVtIj cdudu@cristian
+      line: 
  
   - name: make directory
     file:
@@ -73,7 +73,7 @@
       mode: 0700
       owner: akiss
       group: akiss
-      line: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQClLZmoDMTa1Rnd2XcFs5UUb7EGr6vBj2aYUZLM0IiTVHdFzEz2sZBnRpP2SvnN0FuD3dSN36TRZnB1W9yoWwFU5qfg59bwnfC5EaEVLLcg5cmH0bd3FMC3TA1431jlrnRFvdl2f1vQQAA9Ja7kjCBGv+3yA7gof4ZSAROIYompv/3Cpnm++ega8y5Tds9UqnNZY+vganv/91vbO3xim4hfiTCPNfuqgL1Zr6bV4jxBeQrofpg9jISmRE8jXqIh0xt47FKv7aRq6IGOlS1Rzzwma6+uFXobR2gbRxaYp8n8tNsWFRke/5TLJuldiMRXfA8nDrJNVllBk+zyMNOKSHOh alex@sysrex.com
+      line:
 
   - name: make directory
     file:
@@ -92,7 +92,7 @@
       mode: 0700
       owner: gsikorski
       group: gsikorski
-      line: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQClLZmoDMTa1Rnd2XcFs5UUb7EGr6vBj2aYUZLM0IiTVHdFzEz2sZBnRpP2SvnN0FuD3dSN36TRZnB1W9yoWwFU5qfg59bwnfC5EaEVLLcg5cmH0bd3FMC3TA1431jlrnRFvdl2f1vQQAA9Ja7kjCBGv+3yA7gof4ZSAROIYompv/3Cpnm++ega8y5Tds9UqnNZY+vganv/91vbO3xim4hfiTCPNfuqgL1Zr6bV4jxBeQrofpg9jISmRE8jXqIh0xt47FKv7aRq6IGOlS1Rzzwma6+uFXobR2gbRxaYp8n8tNsWFRke/5TLJuldiMRXfA8nDrJNVllBk+zyMNOKSHOh alex@sysrex.com
+      line: 
 
   # This task allow ‘admins’ group to have passwordless sudo lineinfile:
   - name: Allow 'admins' group to have passwordless sudo
