@@ -1,6 +1,6 @@
 --- # This is the playbook for TOTUS configuration
   
-- hosts: 35.178.230.218
+- hosts: xxx
   gather_facts: no
   connection: ssh
   remote_user: root
@@ -54,7 +54,7 @@
       mode: 0700
       owner: cdudu
       group: cdudu
-      line: 
+      line: xxx
  
   - name: make directory
     file:
@@ -73,7 +73,7 @@
       mode: 0700
       owner: akiss
       group: akiss
-      line:
+      line: xxx
 
   - name: make directory
     file:
@@ -92,7 +92,7 @@
       mode: 0700
       owner: gsikorski
       group: gsikorski
-      line: 
+      line: xxx
 
   # This task allow ‘admins’ group to have passwordless sudo lineinfile:
   - name: Allow 'admins' group to have passwordless sudo
